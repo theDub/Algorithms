@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="gasChartApp">
+	<head>
+		<title>My gas logging application</title>
+		<script type="text/javascript" src="/jq/jquery.min.js"></script>	
+		<script type="text/javascript" src="/ng/angular.min.js"></script>	
+		<script type="text/javascript" src="/fc/fusioncharts.js"></script>
+		<script type="text/javascript" src="/fc/fusioncharts.charts.js"></script>
+		<script type="text/javascript" src="/scripts/angular-fusioncharts.min.js"></script>
+ 	    <script type="text/javascript" src="app.js"></script>
+	</head>
+	<body ng-controller="testCtrl">
+
+		<fusioncharts 
+	        width= "100%"
+	        height= "400"
+	        type= "column2d"
+	        dataFormat= "json"
+	        dataSource= "{{dataSource}}">
+    	</fusioncharts>
+
+	</body>
+</html>

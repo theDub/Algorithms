@@ -1,0 +1,19 @@
+{
+  "name"         : "gaschartapp",
+  "version"      : "0.0.0",
+  "description"  : "Simple gas mileage and charting application.",
+  "main"         : "server.js",
+  "author"       : "Dubsy",
+  "dependencies" : {
+    "angular":          "latest",
+    "body-parser"    : "latest",
+    "express"        : "latest",
+    "method-override": "latest",
+    "mongoose"       : "latest",
+    "morgan"         : "latest",
+    "jquery"         : "latest",
+    "gulp"           : "latest",
+    "bootstrap"      : "latest",
+    "fusioncharts"   : "latest"
+  }
+}
